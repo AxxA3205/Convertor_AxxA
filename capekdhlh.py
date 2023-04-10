@@ -99,8 +99,8 @@ input_box=tk.Entry(frame_string,font=('times new rommon',20,'bold'),width=22,bd=
 input_box.place(x=650,y=100)
 
 # Create the convert button
-convert_button=tk.Button(text='Converter',font='arial 20 bold',fg='white',bg='green',width=40,relief=GROOVE,bd=10,command=converts)
-convert_button.place(x=300,y=600)
+convert_button=tk.Button(frame_string, text='Converter',font='arial 20 bold',fg='white',bg='green',width=40,relief=GROOVE,bd=10,command=converts)
+convert_button.place(x=300,y=550)
 
 # Create the binary output label
 binary_label=tk.Label(frame_string,text='Binary: ',font='arial 20 bold')
@@ -175,8 +175,8 @@ dec_entry.place(x=650,y=100)
 
 
 # Create the convert button
-convert_button2=tk.Button(text='Converter',font='arial 20 bold',fg='white',bg='green',width=40,relief=GROOVE,bd=10,command=convertd)
-convert_button2.place(x=300,y=600)
+convert_button2=tk.Button(frame_decimal, text='Converter',font='arial 20 bold',fg='white',bg='green',width=40,relief=GROOVE,bd=10,command=convertd)
+convert_button2.place(x=300,y=550)
 
 
 # Create the binary output label
@@ -240,8 +240,8 @@ binary_entry=tk.Entry(frame_biner,font=('times new rommon',20,'bold'),width=22,b
 binary_entry.place(x=650,y=100)
 
 # Create the convert button
-convert_button3=tk.Button(text='Converter',font='arial 20 bold',fg='white',bg='green',width=40,relief=GROOVE,bd=10,command=convertb)
-convert_button3.place(x=300,y=600)
+convert_button3=tk.Button(frame_biner ,text='Converter',font='arial 20 bold',fg='white',bg='green',width=40,relief=GROOVE,bd=10,command=convertb)
+convert_button3.place(x=300,y=550)
 
 # Create the binary output label
 decimal_label3=tk.Label(frame_biner,text='Decimal: ',font='arial 20 bold')
@@ -298,8 +298,8 @@ hexadecimal_entry=tk.Entry(frame_Hexa,font=('times new rommon',20,'bold'),width=
 hexadecimal_entry.place(x=650,y=100)
 
 # Create the convert button
-convert_button4=tk.Button(text='Converter',font='arial 20 bold',fg='white',bg='green',width=40,relief=GROOVE,bd=10,command=converth)
-convert_button4.place(x=300,y=600)
+convert_button4=tk.Button(frame_Hexa,text='Converter',font='arial 20 bold',fg='white',bg='green',width=40,relief=GROOVE,bd=10,command=converth)
+convert_button4.place(x=300,y=550)
 
 # Create the binary output label
 decimal_label4=tk.Label(frame_Hexa,text='Decimal: ',font='arial 20 bold')
@@ -351,16 +351,14 @@ octal_entry=tk.Entry(frame_Octal,font=('times new rommon',20,'bold'),width=22,bd
 octal_entry.place(x=650,y=100)
 
 # Create the convert button
-convert_button5=tk.Button(text='Converter',font='arial 20 bold',fg='white',bg='green',width=40,relief=GROOVE,bd=10,command=converto)
-convert_button5.place(x=300,y=600)
+convert_button5=tk.Button(frame_Octal ,text='Converter',font='arial 20 bold',fg='white',bg='green',width=40,relief=GROOVE,bd=10,command=converto)
+convert_button5.place(x=300,y=550)
 
 # Create the binary output label
 decimal_label5=tk.Label(frame_Octal,text='Decimal: ',font='arial 20 bold')
 decimal_label5.place(x=300,y=180)
 decimal_label5=tk.Label(frame_Octal,font=('times new rommon',20,'bold'),relief=SUNKEN)
 decimal_label5.place(x=650,y=180)
-
-
 
 # Create the hexadecimal output label
 bin_label5=tk.Label(frame_Octal,text='Binary: ',font='arial 20 bold')
